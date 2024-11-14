@@ -77,7 +77,7 @@
 def choice_menu():
     # Taking the input from the user user to get into the program
     cm = int(input("What's would you like 'press 1' for abstruct pattern and 'press 2' for Number pattern: "))
-    
+
     if cm == 1:
         def abstructpattern():
             while True:
@@ -90,7 +90,7 @@ def choice_menu():
                     break
                 else:
                     pass
-        abstructpattern()
+        abstructpattern() #calling the abstructpattern......
     elif cm == 2:
         def numberpattern():
             while True:
@@ -107,5 +107,5 @@ def choice_menu():
                     break
                 else:
                     pass
-        numberpattern()
-choice_menu()
+        numberpattern() # Calling teh numberpattern function.....
+choice_menu() #calling the main function.....
