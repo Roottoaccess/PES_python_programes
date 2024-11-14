@@ -62,9 +62,7 @@
 # outer_func(100)
 
 """HomeWork"""
-# Question> Define a function called as even or odd that takes in a parameter x and prints whether the x is even or odd....
-
-# Question> Define a function called as display that takes in 2 values start and end it should display all even numbers between start and end.... if end is laser than the start and make end as start and start as end.....
+# Question1> Define a function called as even or odd that takes in a parameter x and prints whether the x is even or odd....
 
 # def even_odd(x):
 #     if x % 2 == 0:
@@ -74,38 +72,56 @@
 # even_odd(3)
 
 # def pattern choice....
-def choice_menu():
-    # Taking the input from the user user to get into the program
-    cm = int(input("What's would you like 'press 1' for abstruct pattern and 'press 2' for Number pattern: "))
+# def choice_menu():
+#     # Taking the input from the user user to get into the program
+#     cm = int(input("What's would you like 'press 1' for abstruct pattern and 'press 2' for Number
+# pattern: "))
 
-    if cm == 1:
-        def abstructpattern():
-            while True:
-                cap = int(input("Enter 1 for star pattern and 2 for reverse star pattern: "))
-                if cap == 1:
-                    print("*\n**\n***\n****")
-                    break
-                elif cap == 2:
-                    print("****\n***\n**\n*")
-                    break
-                else:
-                    pass
-        abstructpattern() #calling the abstructpattern......
-    elif cm == 2:
-        def numberpattern():
-            while True:
-                npc = int(input("Enter 1 for simple '1s pattern', 2 for 'number increment pattern', 3 for 'another number pattern': "))
+#     if cm == 1:
+#         def abstructpattern():
+#             while True:
+#                 cap = int(input("Enter 1 for star pattern and 2 for reverse star pattern: "))
+#                 if cap == 1:
+#                     print("*\n**\n***\n****")
+#                     break
+#                 elif cap == 2:
+#                     print("****\n***\n**\n*")
+#                     break
+#                 else:
+#                     pass
+#         abstructpattern() #calling the abstructpattern......
+#     elif cm == 2:
+#         def numberpattern():
+#             while True:
+#                 npc = int(input("Enter 1 for simple '1s pattern', 2 for 'number increment pattern', 3 for 'another number pattern': "))
 
-                if npc == 1:
-                    print("1\n11\n111\n1111")
-                    break
-                elif npc == 2:
-                    print("1\n12\n123\n1234")
-                    break
-                elif npc == 3:
-                    print("1\n11\n121\n1221")
-                    break
-                else:
-                    pass
-        numberpattern() # Calling teh numberpattern function.....
-choice_menu() #calling the main function.....
+#                 if npc == 1:
+#                     print("1\n11\n111\n1111")
+#                     break
+#                 elif npc == 2:
+#                     print("1\n12\n123\n1234")
+#                     break
+#                 elif npc == 3:
+#                     print("1\n11\n121\n1221")
+#                     break
+#                 else:
+#                     pass
+#         numberpattern() # Calling teh numberpattern function.....
+# choice_menu() #calling the main function.....
+
+# Question2> Define a function called as display that takes in 2 values start and end it should display all even numbers between start and end.... if end is laser than the start and make end as start and start as end.....
+
+def display(start, end):
+  temp = 0
+  if start < end:
+    for _ in range(start, end+1):
+      if _ % 2 == 0:
+        print(_)
+  else:
+    temp = start
+    start = end
+    end = temp
+    for _ in range(start, end+1):
+      if _ % 2 == 0:
+        print(_)
+display(8, 20)
