@@ -51,9 +51,19 @@ print(llo)
 
 # second question
 lss = ['hello', 'world']
-x1 = []
-llss = [x1.append(x) for x in lss if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u' ]
-print(llss)
+# x1 = [x for x in lss if any(vowel in x for vowel in 'aeiou')]
+# llss = [x1.append(x) for x in lss if x == 'a' or x == 'e' or x == 'i' or x == 'o' or x == 'u' ]
+
+vowel = [char for word in lss for char in word if char in 'aeiou']
+print(vowel)
 
 # Third question
+cons = [char for word in lss for char in word if char not in 'aeiou']
+print(cons)
 
+# fourth question
+char = ['this', 'is', 'a', 'demo', 'string']
+new_char = [x for x in char if len(x) >= 5]
+print(new_char)
+
+# fifth question
