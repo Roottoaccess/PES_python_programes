@@ -60,13 +60,37 @@ print(type(iter_3.__next__())) # The elements of the list are string
 
 
 """This is the program where we are using the iterator next() function with the exception handeling concepts"""
-l_ = [1,2,3,4,5]
+# l_ = [1,2,3,4,5]
 
-l_iterator = iter(l_)
+# l_iterator = iter(l_)
 
-try:
-    while True:
-        element = next(l_iterator)
-        print(element)
-except StopIteration:
-    pass
+# try:
+#     while True:
+#         element = next(l_iterator)
+#         print(element)
+# except StopIteration:
+#     pass
+
+"""Iterator can be used to iterate over any sequence of values, not just list"""
+my_l = [1,2,3,4,5]
+
+iterator = iter(my_l)
+
+for _ in iterator:
+    print(_)
+
+"""A lazy sequence is a sequence that is not fully evaluated util it is needed
+Allow me to implement infinite sequences """
+
+print("This the the itertools")
+
+import itertools
+
+# infinite_cycle = itertools.cycle(['A','B','C'])
+
+# for _ in range(10):
+#     print(next(infinite_cycle))
+
+"""Memory utilization is very less using iterator"""
+num = (x for x in range(10**6))
+print(next(num))
