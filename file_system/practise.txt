@@ -1,0 +1,4 @@
+Hi everyone 
+we are learning file I/O 
+using dark_python 
+I love programming in dark_python

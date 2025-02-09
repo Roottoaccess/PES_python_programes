@@ -1,0 +1,6 @@
+This is the python file, where we are performing the file handling
+This is to know the technique of the python file handling
+and the content which will display from the above
+The operation we will work with is read(), write() in file
+The file should content multiple lines of code or texts
+In html there is <lorem> which will generate auto text in the website !!

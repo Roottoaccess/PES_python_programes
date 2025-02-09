@@ -1,0 +1,10 @@
+For mac system you have to use the command !
+
+# for creating the virtual environment
+python3 -m venv venv
+
+# for activating the vertual environment
+source venv/bin/activate
+
+then apply the command
+pip3 install flask

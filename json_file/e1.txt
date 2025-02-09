@@ -1,0 +1,12 @@
+{
+    "Alpha": {
+        "Age": 23,
+        "Code_Word": "12$ABCX",
+        "Phone Number": "+91 999999999"
+    },
+    "Beta": {
+        "Age": 24,
+        "Code_Word": "1234&ZXCV^^",
+        "Phone Number": "+91 8888888888"
+    }
+}

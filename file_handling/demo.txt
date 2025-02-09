@@ -1,0 +1,6 @@
+This is demo.txt which content multiple lines
+Here are the implementation of the following factors
+This is the file handeling part in python
+
+
+And we have to perform all the operations from the file
