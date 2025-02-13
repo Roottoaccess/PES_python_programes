@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Student>
+ <stud>
+  <name>Alpha</name>
+  <sem>1</sem>
+  <Prog/>
+ </stud>
+ <stud>
+  <name>Beta</name>
+  <sem>2</sem>
+  <Prog/>
+ </stud>
+ <stud>
+  <name>Alpha</name>
+  <sem>1</sem>
+  <Prog/>
+ </stud>
+ <stud>
+  <name>Beta</name>
+  <sem>2</sem>
+  <Prog/>
+ </stud>
+</Student>
